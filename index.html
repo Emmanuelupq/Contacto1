@@ -1,35 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<Link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" href="style.css">
   <title>Formulario Registro</title>
 </head>
 <body>
-	<form name="contact" method="POST" data-netlify="true">
-	  <p>
-	    <label>Your Name: <input type="text" name="name" /></label>
-	  </p>
-	  <p>
-	    <label>Your Email: <input type="email" name="email" /></label>
-	  </p>
-	  <p>
-	    <label>Your Role: <select name="role[]" multiple>
-	      <option value="leader">Leader</option>
-	      <option value="follower">Follower</option>
-	    </select></label>
-	  </p>
-	  <p>
+  <section class="form-register">
+    <h4>Formulario Registro</h4>
+		<form name="contact" method="POST" data-netlify="true">
+    <input type="text" name="name" /></label class="controls" id="name" placeholder="Nombre">
+    <input input type="email" name="email" /></label class="controls" id="correo" placeholder="Correo">
+		<p>
 	    <label>Message: <textarea name="message"></textarea></label>
 	  </p>
 	  <p>
 	    <button type="submit">Send</button>
 	  </p>
-	</form>
+  </section>
     </form>
     </body>
     </html>
